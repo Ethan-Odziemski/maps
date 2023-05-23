@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Untitled layer</name>
+    <Style id="line-A52714-2356-normal">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>2.356</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-A52714-2356-highlight">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>3.534</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-A52714-2356">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-A52714-2356-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-A52714-2356-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-A52714-2550-normal">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>2.55</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-A52714-2550-highlight">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>3.825</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-A52714-2550">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-A52714-2550-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-A52714-2550-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-A52714-2744-normal">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>2.744</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-A52714-2744-highlight">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>4.116</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-A52714-2744">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-A52714-2744-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-A52714-2744-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-A52714-2744-nodesc-normal">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>2.744</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-A52714-2744-nodesc-highlight">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>4.116</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-A52714-2744-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-A52714-2744-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-A52714-2744-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-A52714-2938-normal">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>2.938</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-A52714-2938-highlight">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>4.407</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-A52714-2938">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-A52714-2938-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-A52714-2938-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Pipe 1</name>
+      <description>Test Pipe 1</description>
+      <styleUrl>#line-A52714-2356</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -2.2037142,53.502915,0
+          -2.2030383,53.5022896,0
+          -2.2027594,53.5022258,0
+          -2.2023838,53.5022258,0
+          -2.2002059,53.5029214,0
+          -2.1995192,53.5031702,0
+          -2.1969872,53.5039105,0
+          -2.1963435,53.5040062,0
+          -2.1961611,53.504121,0
+          -2.1958607,53.5041657,0
+          -2.1955281,53.5040189,0
+          -2.1948737,53.5036106,0
+          -2.1940583,53.5030681,0
+          -2.193436,53.5024492,0
+          -2.1932965,53.5021811,0
+          -2.1930068,53.5016132,0
+          -2.1926421,53.5010006,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 2</name>
+      <description>Test Line 2</description>
+      <styleUrl>#line-A52714-2744</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -2.1998626,53.5030681,0
+          -2.200281,53.5035084,0
+          -2.1996373,53.5036488,0
+          -2.1990043,53.5037382,0
+          -2.1983498,53.5037445,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 3</name>
+      <styleUrl>#line-A52714-2744-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -2.1998626,53.5030681,0
+          -2.1973256,53.5002794,0
+          -2.1951692,53.5011154,0
+          -2.1942679,53.5013962,0
+          -2.19371,53.5014792,0
+          -2.1930068,53.5016132,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 4</name>
+      <description>Test Line 4</description>
+      <styleUrl>#line-A52714-2550</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -2.1961611,53.504121,0
+          -2.1962521,53.5042461,0
+          -2.1961984,53.5043737,0
+          -2.1962843,53.5045077,0
+          -2.1964238,53.5046672,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 5</name>
+      <description>Test Line 5</description>
+      <styleUrl>#line-A52714-2550</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -2.1948737,53.5036106,0
+          -2.1942458,53.5038887,0
+          -2.193881,53.5040865,0
+          -2.1937415,53.5043992,0
+          -2.1935806,53.5045715,0
+          -2.1934411,53.5046225,0
+          -2.193248,53.5046098,0
+          -2.1929369,53.5045204,0
+          -2.1925721,53.5043737,0
+          -2.1921644,53.5042843,0
+          -2.1920142,53.5043545,0
+          -2.1918318,53.5046417,0
+          -2.1915314,53.5050054,0
+          -2.1913061,53.5050692,0
+          -2.1910593,53.5050692,0
+          -2.1908555,53.5050182,0
+          -2.1905765,53.5049416,0
+          -2.1903727,53.5050437,0
+          -2.1902118,53.5051968,0
+          -2.1896324,53.5059243,0
+          -2.1910808,53.5063263,0
+          -2.1932158,53.5069324,0
+          -2.1934411,53.5070026,0
+          -2.1953938,53.5045013,0
+          -2.195662,53.5042843,0
+          -2.1958607,53.5041657,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 6</name>
+      <description>Test Line 6</description>
+      <styleUrl>#line-A52714-2356</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -2.1934411,53.5046225,0
+          -2.1933017,53.5049097,0
+          -2.1930549,53.5050501,0
+          -2.1927438,53.5050692,0
+          -2.1925185,53.5050054,0
+          -2.1921751,53.5048714,0
+          -2.1917782,53.5047055,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 7</name>
+      <description>Test Line 7</description>
+      <styleUrl>#line-A52714-2356</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -2.1932856,53.504932,0
+          -2.1941868,53.5051745,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 8</name>
+      <description>Test Line 8</description>
+      <styleUrl>#line-A52714-2744</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -2.1929369,53.5045204,0
+          -2.192819,53.5046354,0
+          -2.1926634,53.5047598,0
+          -2.1925239,53.504913,0
+          -2.1924595,53.5049895,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 9</name>
+      <description>Test Line 9</description>
+      <styleUrl>#line-A52714-2744</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -2.1937415,53.5043992,0
+          -2.1940313,53.5044599,0
+          -2.1942137,53.5045301,0
+          -2.1942244,53.5045907,0
+          -2.194101,53.5047279,0
+          -2.1939616,53.5048843,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 10</name>
+      <description>Test Line 10</description>
+      <styleUrl>#line-A52714-2938</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -2.1938596,53.5041345,0
+          -2.193747,53.5040962,0
+          -2.1931891,53.5039207,0
+          -2.1929101,53.5038282,0
+          -2.1925722,53.5037038,0
+          -2.1922986,53.503691,0
+          -2.1920948,53.5037484,0
+          -2.1919875,53.5038314,0
+          -2.1919231,53.5039239,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 11</name>
+      <description>Test Line 11</description>
+      <styleUrl>#line-A52714-2356</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -2.1926741,53.5037388,0
+          -2.1927438,53.503624,0
+          -2.1928404,53.5034772,0
+          -2.1929209,53.5033847,0
+          -2.1930711,53.503289,0
+          -2.1932749,53.5032698,0
+          -2.1933929,53.5032985,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 12</name>
+      <description>Test Line 12</description>
+      <styleUrl>#line-A52714-2550</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -2.1928243,53.5035027,0
+          -2.19357,53.5037197,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>
