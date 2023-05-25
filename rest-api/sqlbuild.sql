@@ -5,7 +5,7 @@ DROP table pipes;
 create table pipes (
 pipeID int,
 active boolean,
-desciption varchar(255),
+description varchar(255),
 PRIMARY KEY (pipeID)
 );
 

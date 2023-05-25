@@ -1,6 +1,6 @@
 -- DELETE from pipes; 
 
-INSERT INTO pipes (pipeID, active, desciption)
+INSERT INTO pipes (pipeID, active, description)
 VALUES (1000001, 0,  "A pipe"),
 	   (1000002, 0,  "A pipe"),
        (1000003, 0,  "A pipe"),

@@ -97,7 +97,7 @@ app.delete('/:pipeID', (req, res) => {
     }) 
 })
 
-//Get all pipes
+//Get all pipes coordinates
 app.get('//coordinates', (req, res) => {
 
     pool.getConnection((err, connection) => {
@@ -140,6 +140,53 @@ app.get('//hpipe', (req, res) => {
         })
 
     })
+})
+
+//add pipe into pipes
+app.post('/', (req, res) => {
+
+    pool.getConnection((err, connection) => {
+        if(err) throw err
+
+        const params = req.body
+        connection.query(
+            'INSERT INTO pipes SET ? ; ', params, (err, rows) => {
+            connection.release()
+
+            if (!err) {
+                res.send(rows)
+                console.log('Added new pipe: ' + params.pipeID) 
+            } else {
+                console.log(err)
+            }
+        })
+
+        console.log(req.body)
+    }) 
+})
+
+//update pipe in pipes
+app.put('/', (req, res) => {
+
+    pool.getConnection((err, connection) => {
+        if(err) throw err
+
+        const {pipeID, active, description } = req.body;
+
+        connection.query(
+            'UPDATE pipes SET pipeID = ?, active = ?, description = ? WHERE pipeID = ?', [pipeID, active, description, pipeID], (err, rows) => {
+            connection.release()
+
+            if (!err) {
+                res.send(rows)
+                console.log('Added Updated: ' + pipeID)
+            } else {
+                console.log(err)
+            }
+        })
+
+        console.log(req.body)
+    }) 
 })
 
 

@@ -3,6 +3,8 @@ from pipes
 inner join coordinates on pipes.pipeID=coordinates.pipeID;
 -- where pipes.pipeID = 1000001;
 
+select max(pipes.pipeID) from pipes;
+
 delete from pipes where pipeID=1000001;
 delete from coordinates where pipeID=1000001;
 
