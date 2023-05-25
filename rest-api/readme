@@ -4,6 +4,7 @@ Install:
 
 cd into rest-API
 npm install
+npm install --save-dev nodemon
 npm start
 
 The lister is opened on port 5000 of your local host and is the location to send requests. e.g: http://localhost:5000/
