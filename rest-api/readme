@@ -1,3 +1,5 @@
+You must have you database built locally using the sql files in this repo to populate the tables. XXAMP is the current solution we are using to host locally
+
 Install:
 
 cd into rest-API
@@ -5,3 +7,4 @@ npm install
 npm start
 
 The lister is opened on port 5000 of your local host and is the location to send requests. e.g: http://localhost:5000/
+
